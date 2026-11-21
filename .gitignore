@@ -9,3 +9,15 @@
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# Python virtual environment
+.venv/
+
+# Large generated data
+data/derivatives/
+
+# macOS
+.DS_Store
+
+# Large data files
+data/*.pt

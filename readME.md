@@ -7,6 +7,7 @@ Current structure of the project
 |---|---|
 | `data/` | Datasets and other project data |
 | `docs/` | Project documentation and reports |
-| `img/` | Images and other visual assets |
-| `src/` | Source code |
+| `functions/` | All functions used by all members |
+| `models/` | Saved models (tensors or definitions) |
+| `scripts/` | Seldomly run scripts |
 | `readME.md` | Project README and usage information |

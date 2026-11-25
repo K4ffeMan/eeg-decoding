@@ -122,7 +122,7 @@ def launch_preprocessing(bands:list[str], representations:list[str], target_sfre
     }
     torch.save(data, OUTPUT_FILE + '.pt')
 
-    print(f"\nSaved {OUTPUT_FILE + 'pt'}")
+    print(f"\nSaved {OUTPUT_FILE + '.pt'}")
     print("eeg shape:", tuple(data["eeg"].shape))
     print("label values:", data["label"].unique().tolist(), "(should be 0-3)")
     print("condition values:", data["condition"].unique().tolist(), "(should be 0-2)")
@@ -132,7 +132,7 @@ if __name__ == "__main__":
     args = parse_arguments()
     
     DATASET_FOLDER = args.dataset_dir_path
-    OUTPUT_FILE = '../data/' + args.output_file_name
+    OUTPUT_FILE = './data/' + args.output_file_name
 
     parameters = {
         "dataset_dir_path": args.dataset_dir_path,

@@ -1,5 +1,13 @@
 # Hello
 
+## Neuron models
+
+The project compares membrane-only LIF neurons, synaptic-current neurons, and recurrent synaptic (RSynaptic) neurons:
+
+![LIF, Synaptic, and RSynaptic neuron models](./img/LIF-Synaptic-RSynaptic.png)
+
+For details about the RSynaptic implementation, see [RSynaptic for EEG](./docs/RSynaptic.md).
+
 
 Current structure of the project
 

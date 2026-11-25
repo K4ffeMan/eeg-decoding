@@ -21,3 +21,6 @@ data/derivatives/
 
 # Large data files
 data/*.pt
+
+# Dataset
+data/ds003626-2.1.0
